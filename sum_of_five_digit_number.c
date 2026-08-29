@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 { 
-  int num,sum=0
+  int num,sum=0;
 
   printf("Enter the five digit number:");
   scanf("%d",&num);
 
-  while(num < 0)
+  while(num > 0)
     {
       sum = sum + num % 10;
       num = num / 10;
