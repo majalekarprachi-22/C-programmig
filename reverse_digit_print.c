@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
- int i = 20;
+ int i = 30;
 
 while(i >= 0)
 {
